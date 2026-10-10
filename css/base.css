@@ -1,0 +1,24 @@
+// css/base.css
+/* Base styles and resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-body);
+  background-color: var(--black);
+  color: var(--ivory);
+}
+
+button, a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Prevent image selection */
+img {
+  user-select: none;
+}

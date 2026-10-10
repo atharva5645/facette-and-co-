@@ -1,0 +1,43 @@
+/* css/tokens.css */
+:root {
+  /* Colours */
+  --deep-emerald: #0E3D3D;
+  --rich-emerald: #05624C;
+  --gold: #D5B581;
+  --ivory: #E9E4DC;
+  --charcoal: #232A36;
+  --bone: #D6D5D0;
+  --black: #070D0D;
+
+  /* Gradients */
+  --grad-emerald: linear-gradient(90deg, var(--deep-emerald), var(--rich-emerald));
+  --grad-gold: linear-gradient(90deg, var(--gold), var(--ivory));
+
+  /* Typography */
+  --font-head: "IvyPresto Headline", "Cormorant Garamond", serif;
+  --font-accent: "Nohemi", "Manrope", sans-serif;
+  --font-body: "Ronzoni", "Manrope", sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+  --spacing-xxl: 12rem;
+
+  /* Responsive padding & Container widths */
+  --pad: clamp(20px, 5vw, 80px);
+  --container-width: 1440px;
+  --container-width-narrow: 800px;
+
+  /* Borders */
+  --border-subtle: rgba(213, 181, 129, 0.25); /* Gold tinted border */
+  --border-gold: var(--gold);
+  --border-dark: var(--charcoal);
+
+  /* Transitions */
+  --ease: cubic-bezier(0.22, 0.7, 0.2, 1);
+  --transition-fast: 0.3s var(--ease);
+  --transition-slow: 1.2s var(--ease);
+}
